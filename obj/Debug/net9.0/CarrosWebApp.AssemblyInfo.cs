@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarrosWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dbe7bd76ebda7f221acdde30ef23ae632b93bb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarrosWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarrosWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
