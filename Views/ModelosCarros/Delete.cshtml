@@ -1,0 +1,31 @@
+@model CarrosWebApp.Models.ModeloCarro
+
+@{
+    ViewData["Title"] = "Confirmar Apagamento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Tens a certeza que queres apagar este modelo?</h4>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Marca</dt>
+        <dd class="col-sm-10">@Model.Marca</dd>
+
+        <dt class="col-sm-2">Modelo</dt>
+        <dd class="col-sm-10">@Model.Modelo</dd>
+
+        <dt class="col-sm-2">Ano</dt>
+        <dd class="col-sm-10">@Model.Ano</dd>
+
+        <dt class="col-sm-2">Cor</dt>
+        <dd class="col-sm-10">@Model.Cor</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Apagar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

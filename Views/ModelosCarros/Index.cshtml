@@ -3,8 +3,11 @@
 <h1>Modelos de Carros</h1>
 
 <p>
-    <a href="@Url.Action("Create")">Criar Novo Modelo</a>
+    <a href="@Url.Action("Create", "ModelosCarros")" class="btn btn-success">
+        Inserir Carro
+    </a>
 </p>
+
 
 <table class="table">
     <thead>
@@ -12,6 +15,8 @@
             <th>Marca</th>
             <th>Modelo</th>
             <th>Ano</th>
+            <th>Cor</th>
+            <th>Preço</th>
             <th></th>
         </tr>
     </thead>
@@ -21,9 +26,10 @@
             <td>@item.Marca</td>
             <td>@item.Modelo</td>
             <td>@item.Ano</td>
+            <td>@item.Cor</td>
+            <td>@item.Preco</td>
             <td>
-                <a href="@Url.Action("Edit", new { id = item.Id })">Editar</a> |
-                <a href="@Url.Action("Details", new { id = item.Id })">Detalhes</a> |
+                <a asp-controller="ModelosCarros" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a href="@Url.Action("Delete", new { id = item.Id })">Apagar</a>
             </td>
         </tr>

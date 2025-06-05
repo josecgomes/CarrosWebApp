@@ -9,45 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarrosWebApp
 build_property.RootNamespace = CarrosWebApp
-build_property.ProjectDir = C:\Users\Jose\Documents\Faculdade\LICENCIATURA\Cloud_Computing\Projeto Final\CarrosWebApp\
+build_property.ProjectDir = D:\Faculdade\LICENCIATURA\COMPUTAÇÃO NA NUVEM\ProjetoFinal\CarrosWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Jose\Documents\Faculdade\LICENCIATURA\Cloud_Computing\Projeto Final\CarrosWebApp
+build_property.MSBuildProjectDirectory = D:\Faculdade\LICENCIATURA\COMPUTAÇÃO NA NUVEM\ProjetoFinal\CarrosWebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/Home/Index.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/Home/Privacy.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/ModelosCarros/Index.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/ModelosCarros/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc0NhcnJvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/ModelosCarros/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc0NhcnJvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/ModelosCarros/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc0NhcnJvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/ModelosCarros/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxvc0NhcnJvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/Shared/Error.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/_ViewImports.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/_ViewStart.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jose/Documents/Faculdade/LICENCIATURA/Cloud_Computing/Projeto Final/CarrosWebApp/Views/Shared/_Layout.cshtml]
+[D:/Faculdade/LICENCIATURA/COMPUTAÇÃO NA NUVEM/ProjetoFinal/CarrosWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sz83zvsn9l

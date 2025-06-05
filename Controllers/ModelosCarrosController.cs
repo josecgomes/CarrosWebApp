@@ -41,7 +41,7 @@ namespace CarrosWebApp.Controllers
         // POST: ModelosCarros/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Marca,Modelo,Ano")] ModeloCarro modeloCarro)
+        public async Task<IActionResult> Create([Bind("Id,Marca,Modelo,Ano,Cor,Preco")] ModeloCarro modeloCarro)
         {
             if (ModelState.IsValid)
             {
@@ -66,8 +66,9 @@ namespace CarrosWebApp.Controllers
         // POST: ModelosCarros/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Marca,Modelo,Ano")] ModeloCarro modeloCarro)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Marca,Modelo,Ano,Cor,Preco")] ModeloCarro modeloCarro)
         {
+            Console.WriteLine("POST Edit chamado"); // Para ver no output do servidor
             if (id != modeloCarro.Id) return NotFound();
 
             if (ModelState.IsValid)
@@ -76,6 +77,7 @@ namespace CarrosWebApp.Controllers
                 {
                     _context.Update(modeloCarro);
                     await _context.SaveChangesAsync();
+                    Console.WriteLine("Alterações guardadas!");
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -90,6 +92,19 @@ namespace CarrosWebApp.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+
+            else
+    {
+        Console.WriteLine("ModelState inválido");
+        foreach (var key in ModelState.Keys)
+        {
+            var state = ModelState[key];
+            foreach (var error in state.Errors)
+            {
+                Console.WriteLine($"Erro em {key}: {error.ErrorMessage}");
+            }
+        }
+    }
             return View(modeloCarro);
         }
 

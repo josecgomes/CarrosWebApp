@@ -15,8 +15,10 @@ namespace CarrosWebApp.Models
         [Required]
         public string Modelo { get; set; }
 
+        [Required]
         public int Ano { get; set; }
 
+        [Required]
         public string Cor { get; set; }
 
         [Column(TypeName = "decimal(10,2)")]
