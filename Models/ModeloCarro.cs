@@ -9,16 +9,16 @@ namespace CarrosWebApp.Models
         [Key]
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O campo Marca é obrigatório.")]
         public string Marca { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O campo Marca é obrigatório.")]
         public string Modelo { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O campo Marca é obrigatório.")]
         public int Ano { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "O campo Marca é obrigatório.")]
         public string Cor { get; set; }
 
         [Column(TypeName = "decimal(10,2)")]
