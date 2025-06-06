@@ -21,6 +21,7 @@ namespace CarrosWebApp.Models
         [Required(ErrorMessage = "O campo Cor é obrigatório.")]
         public string Cor { get; set; }
 
+        [Required(ErrorMessage = "O campo Preço é obrigatório.")]
         [Column(TypeName = "decimal(10,2)")]
         public decimal Preco { get; set; }
     }
