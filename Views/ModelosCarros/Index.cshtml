@@ -27,7 +27,7 @@
             <td>@item.Modelo</td>
             <td>@item.Ano</td>
             <td>@item.Cor</td>
-            <td>@item.Preco</td>
+            <td>@($"€ {(item.Preco != null ? item.Preco.ToString("N2") : "0.00")}")</td>
             <td>
                 <a asp-controller="ModelosCarros" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a href="@Url.Action("Delete", new { id = item.Id })">Apagar</a>
